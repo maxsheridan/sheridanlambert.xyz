@@ -104,12 +104,6 @@ h3 a, h2 a, h1 a {
 }
 
 main {
-	background: black;
-    background-image: url("https://maxsheridan.github.io/sheridanlambert/assets/background.webp");
-    background-repeat: no-repeat;
-    background-position: 15%;
-    background-attachment: fixed;
-    background-size: cover;
     height: 100vh;
 }
 

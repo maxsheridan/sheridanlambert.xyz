@@ -15,6 +15,11 @@ body {
     text-size-adjust: none;
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;
+	background-image: url("https://maxsheridan.github.io/sheridanlambert/assets/background.webp"); 
+	background-repeat: no-repeat; 
+	background-position: 15%; 
+	background-attachment: fixed; 
+	background-size: cover;
     margin: 0;
 }   
 
@@ -104,6 +109,11 @@ h3 a, h2 a, h1 a {
 }
 
 main {
+	background-image: url("https://maxsheridan.github.io/sheridanlambert/assets/background.webp"); 
+	background-repeat: no-repeat; 
+	background-position: 15%; 
+	background-attachment: fixed; 
+	background-size: cover;
     height: 100vh;
 }
 

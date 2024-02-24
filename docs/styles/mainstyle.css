@@ -1,0 +1,139 @@
+* {
+	overscroll-behavior: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+body { 
+    color: transparent;
+    background-color: #111;
+    user-select: none;
+    -webkit-user-select: none;
+	-moz-user-select: none;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    margin: 0;
+}   
+
+@font-face {
+    font-family: 'ABC Diatype';
+    src: url('/Type/ABC_Diatype.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ABC Diatype Medium';
+    src: url('/Type/ABC_Diatype_Medium.woff2') format('woff2');
+    font-weight: bolder;
+    font-style: normal;
+    font-display: swap;
+}
+
+i,
+em {
+    font-style: italic;
+}
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+p {
+    font-family: "ABC Diatype", sans-serif;
+	font-size: 1.4rem;
+    font-style: normal;
+	font-weight: 400;
+    color: #FFFEFC;
+	line-height: 1.4;
+    margin-bottom: 0;
+    max-width: 47.5rem;
+}
+
+p a {
+	color: #FFFEFC;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+	p {
+        font-size: 1.25rem;
+	}
+}
+
+h3 {
+	font-family: "ABC Diatype Semi-Mono", monospace;
+	font-size: 1.2rem;
+    font-style: normal;
+	font-weight: 400;
+    color: #FFFEFC;
+    font-style: normal;
+	line-height: 1.4;
+}
+
+h2 {
+	font-family: "ABC Diatype", sans-serif;
+    font-size: clamp(1.7rem,3.5vw,2.5rem);
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFEFC;
+	line-height: 1.2;
+    padding: 0 0 .15rem 0;
+    margin: 0;
+}
+
+h1 {
+	font-family: "ABC Diatype", sans-serif;
+    font-size: clamp(2.75rem,6vw,3.75rem); 
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFEFC;
+	line-height: 1.2;	
+    padding: 0 0 .25rem 0;
+    margin: 0;
+}
+
+h3 a, h2 a, h1 a {
+	color: #39FF14;
+    text-decoration: none;
+}
+
+main {
+    background-image: url(https://maxsheridan.github.io/sheridanlambert);
+    background-repeat: no-repeat;
+    background-position: 15%;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.content {
+    padding: 1.5rem 1rem;
+}
+
+/*——IDs & Classes*/
+
+@media only screen and (min-width: 769px) {
+	#copyright {
+        position: fixed;
+        right: 1rem;
+        bottom: 2rem;
+        transform-origin: bottom right;
+        transform: rotate(90deg) translateY(50%);
+    }
+}   
+
+/*——Custom cursor*/
+
+a:hover {
+	cursor: url(/Graphics/Smiley_hover.svg), auto;
+}
+
+html {
+	cursor: url(/Graphics/Smiley_point.svg), auto;
+}

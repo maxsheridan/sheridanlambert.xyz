@@ -104,7 +104,7 @@ h3 a, h2 a, h1 a {
 }
 
 main {
-    background-image: url(/docs/assets/Background.webp);
+    background-image: url(https://maxsheridan.github.io/sheridanlambert/docs/assets/background.webp);
     background-repeat: no-repeat;
     background-position: 15%;
     background-attachment: fixed;

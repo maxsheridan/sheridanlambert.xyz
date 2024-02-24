@@ -109,6 +109,7 @@ main {
     background-position: 15%;
     background-attachment: fixed;
     background-size: cover;
+	background: #111;
     height: 100vh;
 }
 

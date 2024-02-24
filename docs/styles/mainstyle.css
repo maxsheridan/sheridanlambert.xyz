@@ -132,9 +132,9 @@ main {
 /*——Custom cursor*/
 
 a:hover {
-	cursor: url("https://maxsheridan.github.io/sheridanlambert/assets/smiley_hover.webp"), auto;
+	cursor: url("https://maxsheridan.github.io/sheridanlambert/assets/smiley_hover.svg"), auto;
 }
 
 html {
-	cursor: url("https://maxsheridan.github.io/sheridanlambert/assets/smiley_point.webp")), auto;
+	cursor: url("https://maxsheridan.github.io/sheridanlambert/assets/smiley_point.svg")), auto;
 }

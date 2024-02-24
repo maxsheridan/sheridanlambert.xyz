@@ -8,7 +8,7 @@ html {
 
 body { 
     color: transparent;
-    background: black;
+    background-color: #111;
     user-select: none;
     -webkit-user-select: none;
 	-moz-user-select: none;
@@ -104,6 +104,7 @@ h3 a, h2 a, h1 a {
 }
 
 main {
+	background: black;
     background-image: url("https://maxsheridan.github.io/sheridanlambert/assets/background.webp");
     background-repeat: no-repeat;
     background-position: 15%;

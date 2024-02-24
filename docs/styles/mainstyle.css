@@ -110,6 +110,7 @@ main {
 	background-attachment: fixed; 
 	background-size: cover;
     height: 100vh;
+    width: auto;
 }
 
 .content {

@@ -20,7 +20,7 @@ body {
 
 @font-face {
     font-family: 'ABC Diatype';
-    src: url('/Type/ABC_Diatype.woff2') format('woff2');
+    src: url('/docs/assets/type/ABC_Diatype.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -28,7 +28,7 @@ body {
 
 @font-face {
     font-family: 'ABC Diatype Medium';
-    src: url('/Type/ABC_Diatype_Medium.woff2') format('woff2');
+    src: url('/docs/assets/type/ABC_Diatype_Medium.woff2') format('woff2');
     font-weight: bolder;
     font-style: normal;
     font-display: swap;

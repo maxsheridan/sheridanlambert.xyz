@@ -25,18 +25,18 @@ body {
 
 @font-face {
     font-family: 'ABC Diatype';
-    src: url('https://maxsheridan.github.io/sheridanlambert/assets/type/ABC_Diatype.woff2') format('woff2');
+    src: url('/assets/type/ABC_Diatype.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'ABC Diatype Medium';
-    src: url('https://maxsheridan.github.io/sheridanlambert/assets/type/ABC_Diatype_Medium.woff22') format('woff2');
-    font-weight: bolder;
-    font-style: normal;
-    font-display: swap;
+a:hover {
+	cursor: url(/assets/smiley_hover.svg), auto;
+}
+
+html {
+	cursor: url(/assets/smiley_point.svg), auto;
 }
 
 i,
@@ -50,7 +50,7 @@ strong {
 }
 
 p {
-    font-family: "ABC Diatype", sans-serif;
+    font-family: 'ABC Diatype', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 1.4rem;
     font-style: normal;
 	font-weight: 400;
@@ -70,50 +70,7 @@ p a {
         font-size: 1.25rem;
 	}
 }
-
-h3 {
-	font-family: "ABC Diatype Semi-Mono", monospace;
-	font-size: 1.2rem;
-    font-style: normal;
-	font-weight: 400;
-    color: #FFFEFC;
-    font-style: normal;
-	line-height: 1.4;
-}
-
-h2 {
-	font-family: "ABC Diatype", sans-serif;
-    font-size: clamp(1.7rem,3.5vw,2.5rem);
-    font-style: normal;
-    font-weight: 400;
-    color: #FFFEFC;
-	line-height: 1.2;
-    padding: 0 0 .15rem 0;
-    margin: 0;
-}
-
-h1 {
-	font-family: "ABC Diatype", sans-serif;
-    font-size: clamp(2.75rem,6vw,3.75rem); 
-    font-style: normal;
-    font-weight: 400;
-    color: #FFFEFC;
-	line-height: 1.2;	
-    padding: 0 0 .25rem 0;
-    margin: 0;
-}
-
-h3 a, h2 a, h1 a {
-	color: #39FF14;
-    text-decoration: none;
-}
-
 main {
-	background-image: url("https://maxsheridan.github.io/sheridanlambert/assets/background.webp"); 
-	background-repeat: no-repeat; 
-	background-position: 15%; 
-	background-attachment: fixed; 
-	background-size: cover;
     height: 100vh;
     width: auto;
 }
@@ -132,14 +89,4 @@ main {
         transform-origin: bottom right;
         transform: rotate(90deg) translateY(50%);
     }
-}   
-
-/*——Custom cursor*/
-
-a:hover {
-	cursor: url("https://maxsheridan.github.io/sheridanlambert/assets/smiley_hover.svg"), auto;
-}
-
-html {
-	cursor: url("https://maxsheridan.github.io/sheridanlambert/assets/smiley_point.svg"), auto;
-}
+}  

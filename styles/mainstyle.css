@@ -15,6 +15,7 @@ body {
     background-position: center; 
     background-position-x: 15%;
     margin: 0;
+	padding:0
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -96,7 +97,6 @@ h3 a, h1 a {
     color: #39FF14;
     text-decoration: none;
 }
-
 
 main {
     height: 100vh;

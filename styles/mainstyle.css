@@ -1,5 +1,6 @@
 * {
-	overscroll-behavior: none;
+    box-sizing: border-box;
+    overscroll-behavior: none;
 }
 
 html {
@@ -15,7 +16,7 @@ body {
     background-position: center; 
     background-position-x: 15%;
     margin: 0;
-	padding:0
+	padding:0;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;

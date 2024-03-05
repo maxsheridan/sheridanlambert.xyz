@@ -101,6 +101,7 @@ h3 a, h1 a {
 
 main {
     height: 100vh;
+    overflow: hidden;
 }
 
 .content-inner {

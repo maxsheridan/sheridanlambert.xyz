@@ -120,7 +120,7 @@ main {
     padding: 1.5rem 1rem;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 840px) {
 	#copyright {
         position: fixed;
         right: 1.15rem;
